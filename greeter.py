@@ -1,8 +1,11 @@
-name = 'Victor'
+first_name = input("What is your first name?\n")
+last_name = input("What is your last name?\n")
 
-def greet(someone):
-    print('Good Morning, ' + someone + '.')
-    print('Good Afternoon, ' + someone + '.')
-    print('Good Evening, ' + someone + '.')
+print(f"Hello, {first_name} {last_name}!")
 
-greet(name)
+# def greet(someone):
+#     print('Good Morning, ' + someone + '.')
+#     print('Good Afternoon, ' + someone + '.')
+#     print('Good Evening, ' + someone + '.')
+
+# greet(name)

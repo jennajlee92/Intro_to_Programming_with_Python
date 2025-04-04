@@ -1,10 +1,9 @@
-def say():
+def say(text='hello'):
     """
-    The say function prints 'Output from say'
+    The say function prints 'hello!' as a default and 'text!' otherwise
     """
-    print('Output from say')
+    print(text + '!')
 
-print('First')
-say()
-print('Last')
 print(say.__doc__)
+say('Howdy')
+say()

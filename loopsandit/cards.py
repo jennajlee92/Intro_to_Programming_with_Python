@@ -4,10 +4,9 @@ ranks = [
     'Jack', 'Queen', 'King', 'Ace',
 ]
 
-deck = []
-for suit in suits:
-    for rank in ranks:
-        card = f'{rank} of {suit}'
-        deck.append(card)
+deck = [ f'{rank} of {suit}'
+         for suit in suits
+         for rank in ranks
+]
 
 print(deck)
